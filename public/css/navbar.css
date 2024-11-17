@@ -1,0 +1,25 @@
+#navbar.black{
+    background: white;
+    color:white;
+}
+
+#navbar {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:0.5s ease
+}
+.bg-white {
+    background-color: white ;
+}
+.text-black {
+    color: black !important;
+}
+
+.z-index{
+    z-index:1000;
+}
+
+  /* CSS tambahan untuk transisi */
+  #dark-toggle:checked ~ label div.toggle-circle {
+    transform: translateX(0.75rem); /* translate-x-3 equivalent */
+    transition: transform 0.3s ease-in-out; /* Transisi smooth */
+}
